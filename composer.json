@@ -1,0 +1,21 @@
+{
+    "name": "scarlet/telegram-api",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "TelegramClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "scarletVIS",
+            "email": "scarletdeamonvi@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "monolog/monolog": "^3.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
